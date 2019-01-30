@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2eb6bbfa-989d-4dd6-8a20-a5798d28b356" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50567/DatabaseOperations.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DatabaseOperations.wsdl" MetadataType="Wsdl" ID="6ed51d41-95fc-4de8-8bdf-b43998d8a38d" SourceId="1" SourceUrl="http://localhost:50567/DatabaseOperations.svc?wsdl" />
+    <MetadataFile FileName="DatabaseOperations.xsd" MetadataType="Schema" ID="2bab8714-c0c4-4f6b-adc5-7e1c2e986e5d" SourceId="1" SourceUrl="http://localhost:50567/DatabaseOperations.svc?xsd=xsd2" />
+    <MetadataFile FileName="DatabaseOperations1.xsd" MetadataType="Schema" ID="cc245a88-ef5b-4367-8fdf-c9e8f6998b64" SourceId="1" SourceUrl="http://localhost:50567/DatabaseOperations.svc?xsd=xsd1" />
+    <MetadataFile FileName="DatabaseOperations.disco" MetadataType="Disco" ID="2c4e8d2e-0f38-4fee-93e2-86e2233b07a0" SourceId="1" SourceUrl="http://localhost:50567/DatabaseOperations.svc?disco" />
+    <MetadataFile FileName="DatabaseOperations2.xsd" MetadataType="Schema" ID="3938a384-9a37-4a50-86e5-678345295032" SourceId="1" SourceUrl="http://localhost:50567/DatabaseOperations.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

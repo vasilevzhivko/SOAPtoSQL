@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPConnectToDatabase", "SOAPConnectToDatabase\SOAPConnectToDatabase.csproj", "{04AF23B1-6B8E-45DF-97EE-1DDAA264377D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SoapSetup", "SoapSetup\SoapSetup.vdproj", "{B3863B76-532C-4493-A8D0-8EC3D2B08BB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04AF23B1-6B8E-45DF-97EE-1DDAA264377D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AF23B1-6B8E-45DF-97EE-1DDAA264377D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AF23B1-6B8E-45DF-97EE-1DDAA264377D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AF23B1-6B8E-45DF-97EE-1DDAA264377D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3863B76-532C-4493-A8D0-8EC3D2B08BB1}.Debug|Any CPU.ActiveCfg = Debug
+		{B3863B76-532C-4493-A8D0-8EC3D2B08BB1}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {752DFA8B-0EB1-4129-A7D1-F5D085D1E8C9}
+	EndGlobalSection
+EndGlobal

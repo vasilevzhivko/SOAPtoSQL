@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="68af3ef88d1f44db894c42abe883e400" Name="Diagram1">
+        <EntityTypeShape EntityType="VetSystemModel.AnimalSubType" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VetSystemModel.AnimalType" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VetSystemModel.Doctor" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VetSystemModel.DoctorSpecialty" Width="1.5" PointX="5.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VetSystemModel.DoctorSpecialtiesDoctor" Width="1.5" PointX="7.5" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VetSystemModel.Owner" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VetSystemModel.Pet" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VetSystemModel.PetStatu" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VetSystemModel.Status" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VetSystemModel.sysdiagram" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="VetSystemModel.FK_AnimalSubTypes_ParentAnimal" ManuallyRouted="false" />
+        <AssociationConnector Association="VetSystemModel.FK_Pets_AnimalSubType" ManuallyRouted="false" />
+        <AssociationConnector Association="VetSystemModel.FK_Pets_AnimalType" ManuallyRouted="false" />
+        <AssociationConnector Association="VetSystemModel.FK_DoctorSpecialtiesDoctors_DoctorID" ManuallyRouted="false" />
+        <AssociationConnector Association="VetSystemModel.FK_PetStatus_DoctorID" ManuallyRouted="false" />
+        <AssociationConnector Association="VetSystemModel.FK_DoctorSpecialtiesDoctors_DoctorSpecialtiesID" ManuallyRouted="false" />
+        <AssociationConnector Association="VetSystemModel.FK_Pets_Owner" ManuallyRouted="false" />
+        <AssociationConnector Association="VetSystemModel.FK_PetStatus_PetID" ManuallyRouted="false" />
+        <AssociationConnector Association="VetSystemModel.FK_PetStatus_StatusID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
